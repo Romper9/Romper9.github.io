@@ -1,0 +1,554 @@
+@media (max-width: 1150px){
+    .request__send:before{
+        display: none;
+    }
+    .price:before{
+        display: none;
+    }
+}
+@media (max-width: 960px){
+    .header__content{
+        margin: 0 20px;
+    }
+    .location__address {
+        margin: 75px 45px 75px 0;
+    }
+    .location__map {
+        max-width: 460px;
+        width: 100%;
+        height: 320px;
+        margin: 50px 45px;
+    }
+}
+@media (max-width: 900px){
+    .certification__info {
+        margin-left: 80px;
+        margin-right: 10px;
+    }
+    .ordinary__arrow1 {
+        left: -80px;
+    }
+    .ordinary__arrow2 {
+        left: -80px;
+    }
+    .ordinary__arrow3 {
+        left: -80px;
+    }
+    .ordinary__arrow4 {
+        left: -80px;
+    }
+    .frameless__arrow1 {
+        right: -80px;
+    }
+    .frameless__arrow2 {
+        right: -80px;
+    }
+    .frameless__arrow3 {
+        right: -80px;
+    }
+    .frameless__arrow4 {
+        right: -80px;
+    }
+    .location {
+        height: 565px;
+    }
+    .location__container .flex{
+        justify-content: center;
+        flex-wrap: wrap-reverse;
+    }
+    .location__address {
+        margin: 10px 0px 0px 0;
+    }
+    .location__address-pickup {
+        line-height: 18px;
+    }
+    .location__address-adds {
+        line-height: 18px;
+    }
+    .location__address-or {
+        margin-top: 10px;
+        line-height: 14px;
+    }
+    .location__address .carSeats__form-box_button {
+        margin-top: 15px;
+    }
+    .location__map {
+        margin: 30px 42px;
+    }
+}
+@media (max-width: 816px){
+    .why__container {
+        margin: 30px auto;
+        padding: 0 15px;
+    }
+    .FirstPoint__info-title, 
+    .SecondPoint__info-title, 
+    .ThirdPoint__info-title {
+        font-size: 24px;
+        margin-bottom: 20px;
+        line-height: 28px;
+    }
+    .FirstPoint__info-text,
+    .SecondPoint__info-text,
+    .ThirdPoint__info-text {
+        font-size: 16px;
+        line-height: 27px;
+    }
+}
+@media (max-width: 800px){
+    .carSeats{
+        text-align: center;
+    }
+    .carSeats__title{
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .carSeats__text {
+        font-size: 22px;
+        line-height: 22.35px;
+    }
+    .carSeats__form{
+        margin: 60px auto 0 auto;
+        position: initial;
+    }
+    .why__container {
+        margin: 30px auto;
+        padding: 0 15px;
+    }
+    .FirstPoint__info-title, 
+    .SecondPoint__info-title, 
+    .ThirdPoint__info-title {
+        font-size: 24px;
+        margin-bottom: 20px;
+        line-height: 28px;
+    }
+    .FirstPoint__info-text,
+    .SecondPoint__info-text,
+    .ThirdPoint__info-text {
+        font-size: 16px;
+        line-height: 27px;
+    }
+    .certification__container .flex{
+        display: block;
+    }
+    element.style {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .certification__title {
+        padding: 25px 0;
+    }
+    .certification__info {
+        margin: 0 15px 0 15px;
+    }
+    .certification__info-title:before {
+        left: 12px;
+        top: -10px;
+    }
+    .certification__img{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .certification__image {
+        margin-left: initial;
+    }
+    .certification__info-text {
+        font-weight: 500;
+        font-size: 16px;
+        color: #323232;
+        margin-top: 10px;
+        line-height: 22px;
+    }
+    .certification__info-text p{
+        margin: 1px;
+    }
+    .advantages {
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+    .advantages__belts-title,
+    .advantages__installation-title,
+    .advantages__materials-title,
+    .advantages__binding-title {
+        font-size: 14px;
+        line-height: 32px;
+    }
+    .advantages__belts-text,
+    .advantages__installation-text,
+    .advantages__materials-text,
+    .advantages__binding-text {
+        font-weight: 300;
+        font-size: 10px;
+        color: #606060;
+        line-height: 14px;
+    }
+    .advantages__arrow2 {
+        position: absolute;
+        left: -85px;
+        top: 205px;
+    }
+    .ordinary__arrow1,
+    .ordinary__arrow2,
+    .ordinary__arrow3,
+    .ordinary__arrow4,
+    .frameless__arrow1,
+    .frameless__arrow2,
+    .frameless__arrow3,
+    .frameless__arrow4{
+        display: none;
+    }
+}
+@media (max-width: 750px){
+    .certification__img{
+        margin-bottom: inherit;
+    }
+    .certification__info-title {
+        font-size: 16px;
+    }
+    .certification__info-text {
+        font-size: 14px;
+    }
+    .certification__title {
+        font-size: 30px;
+    }
+    .request__price {
+        margin-right: 100px;
+    }
+}
+@media (max-width: 700px){
+    .arrow{
+        display: none;
+    }
+    .FirstPoint,
+    .SecondPoint,
+    .ThirdPoint{
+        margin-top: 30px;
+    }
+    .FirstPoint .flex,
+    .ThirdPoint .flex{
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+    .SecondPoint .flex{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .FirstPoint__info,
+    .ThirdPoint__info {
+        margin-top: 15px;
+        margin-right: initial;
+        text-align: center;
+    }
+    .SecondPoint__info{
+        margin-top: 15px;
+        margin-left: initial;
+        text-align: center;
+    }
+    .info__container{
+        padding: 0 10px;
+    }
+    .advantages__belts-title,
+    .advantages__installation-title,
+    .advantages__materials-title,
+    .advantages__binding-title {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+@media (max-width: 650px){
+    .discount__info{
+        display: block;
+    }
+    .price__container{
+        text-align: center;
+        padding-top: 1px;
+    }
+    .price {
+        margin-top: 0px;
+        text-align: center;
+        padding: initial;
+        margin-right: initial;
+        border-radius: initial;
+        background-color: initial;
+        position: initial;
+    }
+    .price__new {
+        line-height: 18px;
+    }    
+    .discount__stock-gift:before {
+        display: none;
+    }
+    .discount__inner{
+        padding-right: initial;
+        padding-top: 0px;
+    }
+    .discount__calendar {
+        margin-left: initial;
+        margin: 28px auto;
+    }
+    .info__container{
+        margin: 25px auto
+    }
+    .info__container .flex{
+        display: block;
+    }
+    .info__cell-market,
+    .info__cell-sales,
+    .info__cell-done{
+        margin-bottom: 30px;
+    }
+    .request__container{
+        display: block;
+    }
+    .request__price {
+        margin-top: 0px;
+        text-align: center;
+        padding: initial;
+        margin-right: initial;
+        border-radius: initial;
+        background-color: initial;
+        position: initial;
+    }
+    .request__send {
+        margin: 0 auto;
+        text-align: center;
+        position: initial;
+    }
+    .request__price-discount {
+        line-height: 22px;
+    }
+    .request__price-old {
+        line-height: 22px;
+    }
+}
+@media (max-width: 600px){
+    .header__content .flex{
+        display: block;
+        text-align: center;
+    }
+    .logo__img{
+        height: 70px;
+    }
+    .logo__text{
+        font-size: 15px;
+    }
+    .contacts{
+        text-align: center;
+    }
+    .phone{
+        padding-top: 0px;
+        font-size: 18px;
+    }
+    .callBack{
+        padding-top: 0;
+    }
+    .carSeats {
+        margin-top: 45px;
+    }
+    .carSeats__title {
+        font-size: 28px;
+        line-height: 28px;
+        padding-top: 30px;
+    }
+    .carSeats__text {
+        font-size: 20px;
+    }
+    .carSeats{
+        height: 485px;
+    }
+    .certification__info-title:before {
+        top: 10px;
+    }
+    .advantages__arrow1,
+    .advantages__arrow2,
+    .advantages__arrow3,
+    .advantages__arrow4{
+        display: none;
+    }
+    .advantages__left {
+        margin-right: initial;
+        margin-top: 20px;
+    }
+    .advantages__right {
+        margin-left: initial;
+        padding-top: 20px;
+    }
+    .advantages__img {
+        padding-top: 0px;
+    }
+    .confidentiality {
+        margin-top: 5px;
+    }
+    .legal {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        }
+}
+@media (max-width: 550px){
+    .compare__container {
+        max-width: 940px;
+        margin: 15px auto 0px auto;
+    }
+    .compare__title {
+        line-height: 22px;
+    }
+    .compare__collation-left {
+        margin-top: 20px;
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .compare__collation-right{
+        margin-top: 20px;
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .compare__title-left {
+        font-size: 18px;
+    }
+    .compare__title-right{
+        font-size: 18px;
+    }
+    .compare__collation-img {
+        margin-top: 35px;
+    }
+    .compare__collation p + p {
+        margin-top: 15px;
+    }
+    .location__map {
+        margin: 30px 10px;
+    }
+}
+@media (max-width: 500px){
+    .carSeats__title {
+        font-size: 24px;
+    }
+    .carSeats__text {
+        font-size: 16px;
+    }
+    .advantages {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .advantages__container .flex{
+        justify-content: none;
+        flex-wrap: wrap;
+    }
+    .advantages__left{
+        text-align: center;
+    }
+    .advantages__belts{
+        margin-bottom: 20px;
+    }
+    .advantages__right{
+        text-align: center;
+        padding-top: 0px;
+    }
+    .advantages__materials{
+        margin-bottom: 20px;
+    }
+    .advantages__img{
+        margin: 0 auto;
+    }
+    .advantages__belts-title,
+    .advantages__installation-title,
+    .advantages__materials-title,
+    .advantages__binding-title{
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .advantages__belts-text,
+    .advantages__installation-text,
+    .advantages__materials-text,
+    .advantages__binding-text{
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+@media (max-width: 450px){
+    .compare__container{
+        display: none;
+    }
+    .compare__container-media{
+        display: block;
+    }
+    .compare__collation-img_media{
+        text-align: center;
+    }
+    .compare__title-media{
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+    .compare__title-left_media{
+        font-weight: 700;
+        font-size: 16px;
+        color: #535353;
+        text-align: right;
+        margin-left: 40px;
+    }
+    .compare__title-right_media {
+        font-weight: 700;
+        font-size: 16px;
+        color: #68b0c9;
+        margin-left: 35px;
+    }
+    .compare__collation-media{
+        display: flex;
+        justify-content: space-between;
+    }
+    .compare__collation-media p{
+        line-height: 18px;
+    }
+    .compare__collation-left_media{
+        width: 220px;
+        padding-left: 10px;
+        text-align: right;
+        margin-top: 10px;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 18px;
+        color: #939393;
+        margin-right: 10px;
+    }
+    .compare__collation-right_media {
+        width: 220px;
+        padding-right: 10px;
+        margin-top: 10px;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 18px;
+        color: #68b0c9;
+    }
+}
+@media (max-width: 400px){
+    .carSeats__form {
+        margin: 20px auto 0 auto;
+    }
+    .why__title {
+        font-size: 26px;
+    }
+    .discount__stock {
+        font-size: 45px;
+    }
+    .discount__stock-delivery {
+        font-size: 22px;
+    }
+    .certification__title {
+        padding: initial;
+    }
+    .certification__info-title:before {
+        display: none;
+    }
+    .certification__info-title {
+        padding-left: initial;
+        text-align: center;
+        line-height: 20px;
+    }
+    .certification__info-text {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .compare__collation-media p{
+        line-height: 15px;
+    }
+}
